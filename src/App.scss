@@ -12,6 +12,7 @@ $border-radius: 10px;
 
 .App {
   text-align: center;
+  transition: all .5s ease-in-out;
 
   #quote-box{
     padding: 25px;
@@ -60,7 +61,7 @@ $border-radius: 10px;
   .App-header {
     padding: 10%;
     background-color: #282c34;
-    min-height: 75vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
