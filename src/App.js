@@ -3,6 +3,7 @@ import React, {useState, useEffect} from 'react';
 import COLORS_ARRAY from './colorsArray';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import {faQuoteLeft} from '@fortawesome/free-solid-svg-icons'
 
 const quoteDBUrl = "https://gist.githubusercontent.com/natebass/b0a548425a73bdf8ea5c618149fe1fce/raw/f4231cd5961f026264bb6bb3a6c41671b044f1f4/quotes.json"
 
@@ -36,6 +37,7 @@ function App() {
         {color: accentColor }}>
           
           <p id="text">
+            <span id="quote-icon"><FontAwesomeIcon icon={faQuoteLeft}/></span>
             "{quote}"
           </p>
           <p id="author">- {author}</p>     
