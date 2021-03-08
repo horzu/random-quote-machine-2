@@ -1,4 +1,4 @@
-#Random Quote Machine
+# Random Quote Machine
 
 This is a random quote machine. It's a freeCodeCamp's frontend library project.
 
